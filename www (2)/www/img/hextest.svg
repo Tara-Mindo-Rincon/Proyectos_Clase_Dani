@@ -1,0 +1,20 @@
+<svg 
+  xmlns="http://www.w3.org/2000/svg" 
+  width="2.25rem"
+  height="2.25rem"
+  viewBox="0 0 36 36">
+  <clipPath id="hexagon-clip-path">
+   <use href="#hexagon-path"/>
+  </clipPath>
+  <path 
+   id="hexagon-path"
+    style="fill: #000"
+    d="M15.5 0.65470053837926a4 4 0 0 1 4 0l11.58845726812 6.6905989232415a4 4 0 0 1 2 3.4641016151378l0 13.381197846483a4 4 0 0 1 -2 3.4641016151378l-11.58845726812 6.6905989232415a4 4 0 0 1 -4 0l-11.58845726812 -6.6905989232415a4 4 0 0 1 -2 -3.4641016151378l0 -13.381197846483a4 4 0 0 1 2 -3.4641016151378"
+  />
+  <image
+   clip-path="url(#hexagon-clip-path)"
+    width="100%"
+    height="100%"
+    href="CV_CRLOS\www\img\prof_imgs\Pogos.png"
+  ></image>
+</svg>

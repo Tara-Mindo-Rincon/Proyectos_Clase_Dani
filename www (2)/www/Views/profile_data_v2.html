@@ -1,0 +1,40 @@
+<script>getquote()</script>
+
+
+<div class="bg mt-8 pb-5">
+    <div class="w-100 description" style="margin-top: 10vw;">
+        <div class="my-0">
+            <div class="px-4 pt-1 text-center" style="display: grid; justify-content: center;">
+                <h2 id="API" class="titles fw-semibold text-light mb-3 mt-4">&lt; API Kanye West/ &gt;</h2>
+                <div class="functionapi" style="display: ruby;">
+                    <p class="mb-4 mt-4">Generates 10 random quotes said by Kanye West</p>
+                    <button type="button" class="btn btn-primary fw-semibold btn-md mx-2" onclick="getquote()">Generate
+                        <i class="bi bi-file-plus fw-bold"></i>
+                    </button>
+                </div>
+                <div class="card bg-dark border-light text-light">
+                    <div class="card-header">
+                        Quotes
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <ul class="kanyequoute" style="text-align: left;"></ul>
+                            <footer class="blockquote-footer">Kanye West
+                                <cite title="Source Title">https://kanye.rest/</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<script>// Asociar la función al clic del botón
+    $(document).ready(function() {
+        $('#cookiebttn').on('click', function(event) {
+            event.preventDefault(); // Evitar la acción predeterminada del enlace
+            loadPartialViewWithDelay('Modules/cookies', '.animation');
+        });
+    });</script>
